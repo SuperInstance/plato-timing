@@ -1,0 +1,13 @@
+[package]
+name = "plato-timing"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Tensor MIDI timing for PLATO room agent coordination"
+repository = "https://github.com/SuperInstance/plato-timing"
+
+[dev-dependencies]
+serde_json = "1"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
